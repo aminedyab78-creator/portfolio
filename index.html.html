@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amine Dyab - Portfolio Stagiaire en Seconde</title>
+    <!-- Fichier CSS externe -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome pour les icônes modernes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon / Icône du site -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+</head>
+<body>
+
+    <!-- Animations de fond colorées (Blobs) -->
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- EN-TÊTE / NAVBAR -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <div class="logo-badge">AD</div>
+                <div class="logo-text">Amine <span>Dyab</span></div>
+            </a>
+            
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#hero" class="nav-link active">Accueil</a></li>
+                    <li><a href="#about" class="nav-link">À propos de moi</a></li>
+                    <li><a href="#cv" class="nav-link">Mon CV & Compétences</a></li>
+                    <li><a href="#missions" class="nav-link">Mes Missions</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="actions-nav">
+                <!-- Bouton Thème Clair / Sombre -->
+                <button class="theme-toggle" id="theme-btn" title="Basculer le thème (Jour / Nuit)">
+                    <i class="fa-solid fa-sun" id="theme-icon"></i>
+                </button>
+                <a href="#contact" class="btn-contact-nav hidden-mobile">Me contacter</a>
+                <!-- Bouton Menu Hamburger pour Mobile -->
+                <button class="mobile-menu-btn" id="mobile-menu-toggle" title="Ouvrir le menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge-seconde">
+                        <i class="fa-solid fa-rocket"></i>
+                        <span>Élève en classe de Seconde — Stagiaire</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Bonjour, je suis
+                        <span class="name-highlight">Amine Dyab</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        Passionné par le monde de <strong>l'informatique</strong>, les nouvelles technologies et la découverte du monde professionnel.
+                    </h2>
+                    <div class="hero-cta">
+                        <a href="#missions" class="btn-primary">
+                            <span>Découvrir mes missions</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#cv" class="btn-secondary">
+                            <span>Consulter mon CV</span>
+                            <i class="fa-solid fa-file-lines"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="profile-card">
+                        <div class="profile-glow"></div>
+                        <div class="avatar-container">
+                            <div class="avatar-inner">
+                                <!-- 📸 PHOTO DE PROFIL 
+                                     👉 Pour mettre TA vraie photo :
+                                        1. Place ton image (ex: "photo.jpg") dans le même dossier que index.html
+                                        2. Remplace l'URL ci-dessous par : src="photo.jpg"
+                                -->
+                                <img src="https://images.pexels.com/photos/5042302/pexels-photo-5042302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=500&w=500&fit=crop" 
+                                     alt="Photo de profil d'Amine Dyab">
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Amine Dyab</h3>
+                            <p>Stagiaire / Élève de Seconde</p>
+                            <div class="status-pill">
+                                <span class="status-dot"></span>
+                                <span>À la recherche de nouveaux défis</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Badges technologiques flottants -->
+                    <div class="floating-badge badge-left">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span style="font-size: 0.85rem; font-weight: 600;">Secteur IT</span>
+                    </div>
+                    <div class="floating-badge badge-right">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span style="font-size: 0.85rem; font-weight: 600;">Motivation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION "À PROPOS DE MOI" -->
+        <section id="about" class="about">
+            <h2 class="section-title">À propos de <span>moi</span></h2>
+            
+            <div class="about-grid">
+                <div class="about-text-box">
+                    <p>
+                        Actuellement élève en <strong>classe de Seconde</strong>, je suis un jeune homme curieux, rigoureux et particulièrement attiré par l'écosystème numérique et le fonctionnement des entreprises modernes. 
+                    </p>
+                    <p>
+                        Mon parcours scolaire m'a permis d'acquérir une forte capacité d'adaptation et un goût prononcé pour le travail en équipe. À travers mes stages, j'ai à cœur de valider mon projet d'orientation, d'explorer les métiers de l'informatique et de la gestion, et d'apporter mon dynamisme aux équipes qui m'accueillent.
+                    </p>
+                    <p>
+                        <strong>Mon objectif :</strong> Mettre en pratique mes connaissances théoriques, découvrir l'organisation interne des entreprises et développer de véritables compétences professionnelles pour préparer mon avenir.
+                    </p>
+
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h4>Lycée Général</h4>
+                            <p>Classe de Seconde, option culture numérique</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <h4>Curieux & Proactif</h4>
+                            <p>Apprentissage rapide et soif de découvertes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>Esprit d'équipe</h4>
+                            <p>Excellente aisance relationnelle et sens de l'entraide au quotidien.</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fa-solid fa-computer"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>Culture Informatique</h4>
+                            <p>Passionné par la configuration de matériel, les réseaux et le monde du web.</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fa-solid fa-calendar-check"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>Ponctualité & Rigueur</h4>
+                            <p>Engagé à respecter les consignes et à livrer un travail propre et structuré.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION "MON CV" -->
+        <section id="cv" class="cv-section">
+            <h2 class="section-title">Mon CV & <span>Compétences</span></h2>
+            
+            <div class="cv-container">
+                <!-- Colonne Expériences / Stages -->
+                <div class="cv-experience">
+                    <div class="timeline-title">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h3>Expériences Professionnelles (Stages)</h3>
+                    </div>
+
+                    <div class="timeline">
+                        <!-- Stage de Seconde -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-card">
+                                <span class="timeline-date">Juin 2026</span>
+                                <h4 class="timeline-company">Cosbibel Premium France <span>(Service Informatique / IT)</span></h4>
+                                <div class="timeline-location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Levallois-Perret, Île-de-France</span>
+                                </div>
+                                <p class="timeline-desc">
+                                    <strong>Stage de Seconde en immersion professionnelle au sein de l'équipe informatique.</strong> Participation active au support technique, au déploiement du matériel informatique et à la gestion des retours utilisateurs dans un groupe international.
+                                </p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Support Informatique (N1 & N2)</span>
+                                    <span class="tag">Gestion de Parc IT</span>
+                                    <span class="tag">Projets Locaux</span>
+                                    <span class="tag">Satisfaction Utilisateur</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Stage de 3ème -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-card">
+                                <span class="timeline-date">Année 2025</span>
+                                <h4 class="timeline-company">CAF de Versailles <span>(Secteur Informatique)</span></h4>
+                                <div class="timeline-location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Versailles, Yvelines</span>
+                                </div>
+                                <p class="timeline-desc">
+                                    <strong>Stage de 3ème d'observation au sein du Service Informatique (DSI).</strong> Accompagnement de l'équipe de techniciens support, découverte de l'administration du réseau interne, maintenance de premier niveau et assistance aux collaborateurs.
+                                </p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Support Informatique</span>
+                                    <span class="tag">Maintenance</span>
+                                    <span class="tag">Helpdesk</span>
+                                    <span class="tag">Sécurité des Systèmes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Colonne Compétences -->
+                <div class="cv-skills">
+                    <div class="skills-container">
+                        <!-- Compétences Techniques -->
+                        <div class="skills-box">
+                            <h3><i class="fa-solid fa-gears"></i> Compétences Informatiques</h3>
+                            
+                            <div class="skill-group">
+                                <div class="skill-label">
+                                    <span>Suite Office (Excel, Word, PowerPoint)</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-group">
+                                <div class="skill-label">
+                                    <span>Support technique & Maintenance PC</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress purple-pink" style="width: 75%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-group">
+                                <div class="skill-label">
+                                    <span>Initiation Web (HTML5 & CSS3)</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress pink-amber" style="width: 65%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-group">
+                                <div class="skill-label">
+                                    <span>Outils collaboratifs (Teams, OneDrive, Trello)</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Soft Skills -->
+                        <div class="skills-box">
+                            <h3><i class="fa-solid fa-user-check"></i> Savoir-être (Soft Skills)</h3>
+                            <div class="soft-skills-tags">
+                                <div class="soft-skill-bubble"><i class="fa-solid fa-check"></i> Esprit d'analyse</div>
+                                <div class="soft-skill-bubble"><i class="fa-solid fa-check"></i> Autonomie</div>
+                                <div class="soft-skill-bubble"><i class="fa-solid fa-check"></i> Sens de l'écoute</div>
+                                <div class="soft-skill-bubble"><i class="fa-solid fa-check"></i> Travail en équipe</div>
+                                <div class="soft-skill-bubble"><i class="fa-solid fa-check"></i> Adaptabilité</div>
+                                <div class="soft-skill-bubble"><i class="fa-solid fa-check"></i> Curiosité intellectuelle</div>
+                            </div>
+                        </div>
+
+                        <!-- Langues -->
+                        <div class="skills-box">
+                            <h3><i class="fa-solid fa-language"></i> Langues</h3>
+                            <div class="soft-skills-tags">
+                                <div class="soft-skill-bubble">🇫🇷 Français (Natif)</div>
+                                <div class="soft-skill-bubble">🇩🇿 🇲🇦 Arabe (Courant / Bilingue)</div>
+                                <div class="soft-skill-bubble">🇬🇧 Anglais (Intermédiaire - B1)</div>
+                                <div class="soft-skill-bubble">🇪🇸 Espagnol (Scolaire - A2)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION "MES MISSIONS DE STAGE" -->
+        <section id="missions" class="missions-section">
+            <h2 class="section-title">Mes missions de <span>stage</span></h2>
+            
+            <div class="missions-grid">
+                <!-- Mission 1 -->
+                <div class="mission-card">
+                    <div class="mission-banner" style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80');">
+                        <div class="mission-badge-number">01</div>
+                        <div class="mission-banner-title">
+                            <span class="mission-company-tag">Cosbibel Premium IT</span>
+                            <h3 class="mission-title">Installation, Config. & Support (N1 à N2)</h3>
+                        </div>
+                    </div>
+                    <div class="mission-content">
+                        <p class="mission-desc">
+                            Assistance directe auprès des collaborateurs de l'entreprise pour résoudre les incidents informatiques et préparer les nouveaux postes.
+                        </p>
+                        <ul class="mission-task-list">
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Installation et configuration de postes de travail (Windows, Office 365, Outils métier).</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Support technique de niveau 1 et 2 (Helpdesk, prise en main à distance).</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Dépannage matériel (périphériques, imprimantes, double écran, dock stations).</span>
+                            </li>
+                        </ul>
+                        <button class="btn-mission-modal" onclick="openModal(1)">
+                            <span>Découvrir en détail</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mission 2 -->
+                <div class="mission-card">
+                    <div class="mission-banner" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80');">
+                        <div class="mission-badge-number">02</div>
+                        <div class="mission-banner-title">
+                            <span class="mission-company-tag">Cosbibel Premium IT</span>
+                            <h3 class="mission-title">Déplacements d'Équipements & Projets Locaux</h3>
+                        </div>
+                    </div>
+                    <div class="mission-content">
+                        <p class="mission-desc">
+                            Interventions logistiques et techniques pour la réorganisation des espaces de travail et la mise en œuvre de projets IT sur site.
+                        </p>
+                        <ul class="mission-task-list">
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Déménagement et réinstallation de matériel informatique lors de réorganisations internes.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Participation au brassage réseau et à l'optimisation de la connectivité dans les bureaux.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Collaboration active sur les projets IT locaux (renouvellement de parc, audits).</span>
+                            </li>
+                        </ul>
+                        <button class="btn-mission-modal" onclick="openModal(2)">
+                            <span>Découvrir en détail</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mission 3 -->
+                <div class="mission-card">
+                    <div class="mission-banner" style="background-image: url('https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=600&q=80');">
+                        <div class="mission-badge-number">03</div>
+                        <div class="mission-banner-title">
+                            <span class="mission-company-tag">Cosbibel Premium IT</span>
+                            <h3 class="mission-title">Suivi des Interventions & Satisfaction Client</h3>
+                        </div>
+                    </div>
+                    <div class="mission-content">
+                        <p class="mission-desc">
+                            Gestion du suivi des tickets d'assistance interne, écoute des besoins et contrôle constant de la qualité du service informatique rendu.
+                        </p>
+                        <ul class="mission-task-list">
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Traçabilité des interventions techniques dans le logiciel de ticketing de l'entreprise.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Échange proactif avec les utilisateurs pour valider la résolution définitive de leur problème.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Recueil des retours (feedbacks) pour améliorer continuellement les processus de support.</span>
+                            </li>
+                        </ul>
+                        <button class="btn-mission-modal" onclick="openModal(3)">
+                            <span>Découvrir en détail</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION CONTACT / ACTION -->
+        <section id="contact" class="contact-section">
+            <div class="contact-card">
+                <div class="contact-content">
+                    <h2>Un profil qui vous intéresse ?</h2>
+                    <p>
+                        Je suis à la recherche d'opportunités enrichissantes pour développer mes compétences, apprendre à vos côtés et contribuer à la réussite de vos projets.
+                    </p>
+                    
+                    <div class="email-display-box">
+                        <div class="email-address">
+                            <i class="fa-solid fa-envelope" style="color: var(--secondary);"></i>
+                            <span id="my-email">amine.dyab78@gmail.com</span>
+                        </div>
+                        <button class="btn-copy-email" id="copy-btn" onclick="copyEmail()">
+                            <i class="fa-regular fa-copy"></i>
+                            <span>Copier mon e-mail</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIED DE PAGE -->
+    <footer>
+        <div class="footer-content">
+            <a href="#hero" class="footer-logo">
+                <i class="fa-solid fa-rocket" style="color: var(--secondary);"></i>
+                <span>Amine Dyab</span>
+            </a>
+            
+            <div class="social-links">
+                <a href="#contact" class="social-btn" title="Envoyer un e-mail" onclick="copyEmail()"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-btn" title="Mon Profil LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener" class="social-btn" title="Mon GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2026 <span>Amine Dyab</span>. Tous droits réservés.</p>
+                <p>Réalisé pour le portfolio de stage en classe de Seconde.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODALES POUR LE DETAIL DES MISSIONS -->
+    <div class="modal-overlay" id="mission-modal-overlay" onclick="closeModalOnOutside(event)">
+        <div class="modal-content">
+            <button class="btn-close-modal" onclick="closeModal()" title="Fermer la fenêtre">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <!-- Contenu injecté via JavaScript -->
+            <div id="modal-dynamic-content"></div>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast-notification" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toast-text">Adresse e-mail copiée avec succès !</span>
+    </div>
+
+    <!-- SCRIPTS JAVASCRIPT -->
+    <script>
+        // DONNÉES DES MISSIONS POUR LES MODALES
+        const missionsData = {
+            1: {
+                company: "Cosbibel Premium France (Service IT)",
+                title: "Installation, Configuration & Support Technique (Niveau 1 à 2)",
+                date: "Stage de Seconde - Juin 2026",
+                desc: "Intégré au sein du service informatique de Cosbibel Premium France à Levallois-Perret, j'ai eu l'opportunité de prendre en charge le support technique opérationnel de niveau 1 à 2 afin d'assurer le bon fonctionnement des outils numériques de l'entreprise.",
+                details: [
+                    "Installation et paramétrage complet des nouveaux postes de travail (système d'exploitation Windows 11, Suite Office 365, VPN).",
+                    "Installation et mise à jour des logiciels et applications de gestion métier utilisés par les équipes.",
+                    "Prise en charge des requêtes utilisateurs (Helpdesk) pour diagnostiquer et résoudre les bugs ou pannes courantes.",
+                    "Assistance sur l'installation de périphériques : imprimantes réseau, stations de base (docks), configurations à double écran et téléphones VOIP."
+                ],
+                learnings: [
+                    "Maîtrise pratique du dépannage informatique en environnement d'entreprise moderne.",
+                    "Rigueur dans l'exécution de procédures techniques de configuration standardisées.",
+                    "Développement d'un excellent sens de la communication et de la pédagogie face aux utilisateurs en difficulté."
+                ]
+            },
+            2: {
+                company: "Cosbibel Premium France (Service IT)",
+                title: "Déplacements d'Équipements & Projets IT Locaux",
+                date: "Stage de Seconde - Juin 2026",
+                desc: "La gestion d'un parc informatique évolutif nécessite une excellente organisation physique et logistique. Durant mon stage, j'ai épaulé l'équipe dans l'optimisation et la réorganisation des postes informatiques au sein des bureaux.",
+                details: [
+                    "Participation active aux opérations de déménagement interne et de réinstallation des équipements informatiques.",
+                    "Vérification du câblage et brassage dans les baies informatiques (connexions réseau RJ45, gestion des switchs locaux).",
+                    "Appui logistique sur l'inventaire physique du matériel (identification des postes obsolètes, étiquetage des nouveaux actifs).",
+                    "Implication dans le déploiement de nouveaux outils collaboratifs et mise à niveau des salles de visioconférence."
+                ],
+                learnings: [
+                    "Vision globale de l'architecture physique d'un réseau de moyenne et grande envergure.",
+                    "Compréhension des enjeux de gestion d'actifs (Asset Management) en informatique.",
+                    "Esprit d'équipe et ponctualité pour réaliser des interventions sans perturber l'activité des collaborateurs."
+                ]
+            },
+            3: {
+                company: "Cosbibel Premium France (Service IT)",
+                title: "Suivi des Interventions & Satisfaction des Utilisateurs",
+                date: "Stage de Seconde - Juin 2026",
+                desc: "Le rôle d'un service IT ne s'arrête pas à la simple résolution technique des incidents : la dimension humaine et la garantie de la satisfaction des utilisateurs sont fondamentales pour un support de qualité.",
+                details: [
+                    "Suivi rigoureux des tickets d'assistance ouverts dans l'outil de gestion d'incidents, de leur création à leur clôture.",
+                    "Communication directe et bienveillante avec les collaborateurs pour s'assurer que les correctifs apportés répondent parfaitement à leurs attentes.",
+                    "Rédaction de petites notes explicatives synthétiques ou guides pratiques pour aider les utilisateurs à résoudre par eux-mêmes de futurs soucis mineurs.",
+                    "Analyse des retours utilisateurs pour remonter les pannes récurrentes à ma hiérarchie et proposer des solutions préventives."
+                ],
+                learnings: [
+                    "Importance capitale de l'empathie, de l'écoute active et du professionnalisme dans la relation utilisateur.",
+                    "Acquisition d'une véritable culture du service client en milieu B2B interne.",
+                    "Capacité à synthétiser une information technique pour la rendre accessible à des non-initiés."
+                ]
+            }
+        };
+
+        // BASCULE DE THÈME (JOUR / NUIT)
+        const themeBtn = document.getElementById('theme-btn');
+        const themeIcon = document.getElementById('theme-icon');
+        
+        // Vérifier le thème sauvegardé
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+
+        themeBtn.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+
+        function updateThemeIcon(theme) {
+            if (theme === 'light') {
+                themeIcon.className = 'fa-solid fa-moon';
+                themeIcon.style.color = '#4f46e5';
+            } else {
+                themeIcon.className = 'fa-solid fa-sun';
+                themeIcon.style.color = '#f59e0b';
+            }
+        }
+
+        // MENU HAMBURGER MOBILE
+        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        
+        mobileMenuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            const icon = mobileMenuToggle.querySelector('i');
+            if (navMenu.classList.contains('active')) {
+                icon.className = 'fa-solid fa-xmark';
+            } else {
+                icon.className = 'fa-solid fa-bars';
+            }
+        });
+
+        // Fermer le menu mobile au clic sur un lien
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileMenuToggle.querySelector('i').className = 'fa-solid fa-bars';
+            });
+        });
+
+        // GESTION DES MODALES
+        const modalOverlay = document.getElementById('mission-modal-overlay');
+        const modalDynamicContent = document.getElementById('modal-dynamic-content');
+
+        function openModal(missionId) {
+            const data = missionsData[missionId];
+            if (!data) return;
+
+            let detailsList = data.details.map(d => `<li><i class="fa-solid fa-circle-arrow-right"></i> ${d}</li>`).join('');
+            let learningsList = data.learnings.map(l => `<li><i class="fa-solid fa-check"></i> ${l}</li>`).join('');
+
+            modalDynamicContent.innerHTML = `
+                <div class="modal-header">
+                    <span class="mission-company-tag" style="font-size:0.85rem;">${data.company}</span>
+                    <h3>${data.title}</h3>
+                    <div class="modal-meta"><i class="fa-solid fa-calendar-days"></i> ${data.date}</div>
+                </div>
+                <div class="modal-body">
+                    <p>${data.desc}</p>
+                    
+                    <h4 style="margin: 1.5rem 0 0.8rem; font-size: 1.2rem; color: var(--text-main);">
+                        <i class="fa-solid fa-list-check" style="color: var(--secondary);"></i> Principales tâches accomplies :
+                    </h4>
+                    <ul class="mission-task-list" style="margin-bottom: 1.5rem;">
+                        ${detailsList}
+                    </ul>
+
+                    <div class="modal-learnings">
+                        <h4><i class="fa-solid fa-lightbulb"></i> Ce que j'ai appris (Compétences acquises) :</h4>
+                        <ul>
+                            ${learningsList}
+                        </ul>
+                    </div>
+                </div>
+            `;
+
+            modalOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Empêcher le scroll en arrière-plan
+        }
+
+        function closeModal() {
+            modalOverlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function closeModalOnOutside(event) {
+            if (event.target === modalOverlay) {
+                closeModal();
+            }
+        }
+
+        // COPIER L'EMAIL
+        function copyEmail() {
+            const emailText = document.getElementById('my-email').innerText;
+            const copyBtn = document.getElementById('copy-btn');
+            
+            navigator.clipboard.writeText(emailText).then(() => {
+                // Changer l'apparence du bouton
+                copyBtn.classList.add('copied');
+                copyBtn.innerHTML = `<i class="fa-solid fa-check"></i><span>E-mail copié !</span>`;
+                
+                // Afficher le toast
+                const toast = document.getElementById('toast');
+                toast.classList.add('show');
+
+                // Rétablir après 3 secondes
+                setTimeout(() => {
+                    copyBtn.classList.remove('copied');
+                    copyBtn.innerHTML = `<i class="fa-regular fa-copy"></i><span>Copier mon e-mail</span>`;
+                    toast.classList.remove('show');
+                }, 3000);
+            }).catch(err => {
+                console.error('Erreur lors de la copie de l\'e-mail : ', err);
+            });
+        }
+
+        // HIGHLIGHT DU MENU SUR SCROLL
+        window.addEventListener('scroll', () => {
+            let scrollPos = window.scrollY + 100;
+            const sections = document.querySelectorAll('section');
+            
+            sections.forEach(section => {
+                if (scrollPos > section.offsetTop && scrollPos < (section.offsetTop + section.offsetHeight)) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (section.getAttribute('id') && link.getAttribute('href') === `#${section.getAttribute('id')}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+
+            // Effet sur le header
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.2)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
