@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amine Dyab — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- EN-TÊTE -->
+    <header class="header" id="accueil">
+        <nav class="navbar">
+            <div class="logo">AD<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#cv">Mon CV</a></li>
+                <li><a href="#missions">Missions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="burger" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-text">
+                <p class="badge">👋 Bienvenue sur mon portfolio</p>
+                <h1>Je suis<br><span class="name">Amine Dyab</span></h1>
+                <p class="subtitle">Élève en seconde &amp; passionné d'informatique</p>
+                <p class="desc">À la découverte du monde professionnel à travers mes stages.</p>
+                <div class="btns">
+                    <a href="#cv" class="btn btn-main">Voir mon CV</a>
+                    <a href="#contact" class="btn btn-ghost">Me contacter</a>
+                </div>
+            </div>
+<div class="hero-img">
+                <div class="profile-circle">AD</div>
+                <div class="shape s1"></div>
+                <div class="shape s2"></div>
+                <div class="shape s3"></div>
+            </div>
+        </div>
+
+        <svg class="wave" viewBox="0 0 1440 120"><path d="M0,64C360,128,720,0,1440,64V120H0Z" fill="#e3f2fd"/></svg>
+    </header>
+
+    <!-- À PROPOS -->
+    <section class="sec" id="apropos">
+        <div class="wrap">
+            <h2 class="title">À propos de moi</h2>
+            <div class="cards">
+                <div class="card">
+                    <span class="card-icon">🎓</span>
+                    <h3>Mon parcours</h3>
+                    <p>Élève en classe de seconde, curieux et motivé par le monde de l'informatique et du numérique.</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">💻</span>
+                    <h3>Mes passions</h3>
+                    <p>J'aime comprendre comment fonctionnent les ordinateurs et découvrir la programmation web.</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">🚀</span>
+                    <h3>Mon objectif</h3>
+                    <p>Confirmer mon projet d'orientation dans l'informatique grâce à mes stages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MON CV -->
+    <section class="sec sec-blue" id="cv">
+        <div class="wrap">
+            <h2 class="title">Mon CV</h2>
+
+            <h3 class="sub-title">📋 Mes stages</h3>
+
+            <div class="timeline">
+                <div class="tl-item">
+                    <div class="tl-dot"></div>
+                    <div class="tl-box">
+                        <span class="tl-date">2025 — Stage de 3<sup>e</sup></span>
+                        <h4>CAF de Versailles</h4>
+                        <p class="tl-place">📍 Versailles (78) · Secteur informatique</p>
+                        <p>Stage d'observation au service informatique de la CAF de Versailles.</p>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-dot"></div>
+                    <div class="tl-box">
+                        <span class="tl-date">Juin 2026 — Stage de seconde</span>
+                        <h4>Cosbibel Premium France</h4>
+                        <p class="tl-place">📍 Levallois-Perret (92)</p>
+                        <p>Stage en entreprise dans une structure dynamique.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="sub-title">🛠️ Mes compétences</h3>
+
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-info"><span>HTML / CSS</span><span>70%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" style="--g:linear-gradient(90deg,#ff6ec4,#7873f5);--v:70%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info"><span>Pack Office (Word, Excel)</span><span>80%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" style="--g:linear-gradient(90deg,#4facfe,#00f2fe);--v:80%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info"><span>Maintenance informatique</span><span>60%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" style="--g:linear-gradient(90deg,#fa709a,#fee140);--v:60%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info"><span>Réseaux &amp; matériel</span><span>55%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" style="--g:linear-gradient(90deg,#43e97b,#38f9d7);--v:55%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info"><span>Travail en équipe</span><span>85%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" style="--g:linear-gradient(90deg,#a18cd1,#fbc2eb);--v:85%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info"><span>Anglais</span><span>65%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" style="--g:linear-gradient(90deg,#f093fb,#f5576c);--v:65%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info"><span>Arabe</span><span>95%</span></div>
+                    <div class="skill-bar"><div class="skill-fill" style="--g:linear-gradient(90deg,#ffecd2,#fcb69f);--v:95%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MISSIONS -->
+    <section class="sec" id="missions">
+        <div class="wrap">
+            <h2 class="title">Mes missions de stage</h2>
+            <p class="sub-desc">Les 3 missions réalisées chez <strong>Cosbibel Premium France</strong></p>
+
+            <div class="missions">
+                <article class="mis-card mis-1">
+                    <div class="mis-num">01</div>
+                    <div class="mis-icon">📞</div>
+                    <h3>Suivi des interventions &amp; satisfaction utilisateurs</h3>
+                    <p>J'ai assuré le suivi des interventions techniques et veillé à la bonne satisfaction des utilisateurs.</p>
+                </article>
+                <article class="mis-card mis-2">
+                    <div class="mis-num">02</div>
+                    <div class="mis-icon">📦</div>
+                    <h3>Déplacement d'équipements &amp; projets IT locaux</h3>
+                    <p>J'ai participé au déplacement physique des équipements informatiques et aux projets IT locaux.</p>
+                </article>
+                <article class="mis-card mis-3">
+                    <div class="mis-num">03</div>
+                    <div class="mis-icon">⚙️</div>
+                    <h3>Installation, configuration &amp; support N1 à N2</h3>
+                    <p>J'ai installé et configuré des postes, avec un support technique de niveau 1 à 2.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="wrap f-grid">
+            <div>
+                <h3 class="f-logo">Amine Dyab<span>.</span></h3>
+                <p>Élève en seconde passionné d'informatique.</p>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <ul>
+                    <li>📧 <a href="mailto:amine.dyab78@gmail.com">amine.dyab78@gmail.com</a></li>
+                    <li>📍 Île-de-France, France</li>
+                </ul>
+            </div>
+        </div>
+        <div class="f-bot">
+            <p>&copy; 2026 Amine Dyab — Fait avec ❤️</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('open');
+        }
+        
+        const fills = document.querySelectorAll('.skill-fill');
+        const obs = new IntersectionObserver(e => {
+            e.forEach(x => {
+                if (x.isIntersecting) {
+                    x.target.style.width = getComputedStyle(x.target).getPropertyValue('--v');
+                    obs.unobserve(x.target);
+                }
+            });
+        }, { threshold: 0.3 });
+        fills.forEach(f => obs.observe(f));
+    </script>
+</body>
+</html>
